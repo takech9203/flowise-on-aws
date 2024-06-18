@@ -74,8 +74,11 @@ cp terraform/terraform.tfvars.template terraform/terraform.tfvars
 
 Update ubuntu default password information in `terraform/terraform.tfvars`.
 
-```shell
-alb_allowed_ip = "1.1.1.1/32"
+```ini
+alb_allowed_ip             = "1.1.1.1/32"
+acm_cert_arn               = "arn:aws:acm:xxxxxx"
+route53_hosted_zone_id     = "XXXXXXXXXXX"
+route53_hosted_zone_domain = "example.com"
 ```
 
 Configure `terraform/main.tf` when needed.
