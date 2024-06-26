@@ -57,8 +57,8 @@ export AWS_SECRET_ACCESS_KEY="<YOUR_AWS_SECRET_ACCESS_KEY>"
 
 Run the command below to clone the git repository.
 
-```
-git clone https://gitlab.aws.dev/kunimasa/flowise-on-aws
+```shell
+git clone "<git repo URL>"
 ```
 
 ### Configure and deploy the environment (Terraform)
